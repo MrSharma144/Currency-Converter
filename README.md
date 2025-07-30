@@ -1,12 +1,63 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive currency converter web app built with React and Tailwind CSS. Instantly convert between currencies with live rates and a beautiful video background.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time currency conversion using a public API
+- Video background for an engaging user experience
+- Responsive and mobile-friendly design
+- Swap currencies with one click
+- Clean, modern interface
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[https://currency-converter-ps.vercel.app/](https://currency-converter-ps.vercel.app/)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/currency-converter.git
+   cd currency-converter
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+### Running Locally
+
+```sh
+npm run dev
+```
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+- `src/components/background.jsx` — Video background and heading
+- `src/hooks/useCurrencyInfo.js` — Custom hook for fetching currency rates
+- `src/App.jsx` — Main application logic and UI
+
+## API Used
+
+- [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api)
+
+## Customization
+
+- To change the background video, replace `src/assets/bgImage.mp4` with your own video file.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+*Made with ❤️ using React and Tailwind CSS*
